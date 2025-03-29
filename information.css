@@ -1,0 +1,142 @@
+.InforPage{
+    width: 1550px;
+    height: 750px;
+    position:fixed;top: 0;left: 0;right: 0;bottom: 0;
+    margin: auto;
+    border-radius: 4px;
+    background-color: rgb(30, 30, 30);
+    display: none;
+}
+.nav{
+    flex: 1;
+    background-color: rgb(30, 30, 30);
+    margin: 20px 0;
+    padding:0 20px;
+    border-right: 1px solid #e0e0e04b;
+}
+.pic{
+    display: flex;
+    align-items: center;
+}
+.name{
+    margin: 4px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+    border: 3px solid #43A49B;
+}
+
+.name_under{
+    color: #e0e0e0;
+    font-size: 14px;
+}
+.kuang{
+    background-color: rgb(45, 45, 45);
+    border-radius: 4px;
+    width: 90%;
+    height: 40px;
+    margin: 5px 5%;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(114, 143, 158);
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+.kuang:hover{
+    background-color: rgb(46, 139, 87);
+    font-size: 16px;
+    border: 1px solid rgb(70, 211, 131);
+    color: #fff;
+}
+.ChooseEnd{
+    background-color: rgb(46, 139, 87);
+    font-size: 16px;
+    border: 1px solid rgb(70, 211, 131);
+    color: #fff;
+}
+.seetable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 5;
+    border-radius: 4px;
+}
+.Inseetable{
+    width: 92%;
+    height: 94%;
+    background-color: rgb(45, 45, 45);
+    border-radius: 4px;
+}
+.InAttenDance h1{
+    margin: 20px 40px;
+}
+.InAttenDance{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #FFFFFF;
+    display: none;
+}
+.InAttenDance::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+.InAttenDance::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: none;
+}
+.InAttenDance::-webkit-scrollbar-thumb {
+    background:#888;
+    border-radius: 4px;
+    border: none;
+}
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.InAtText_one{
+    font-size: 20px;
+    font-family:"宋体";
+}
+#AttenDanceCanvas_chart {
+    border-radius: 4px; /* 给 canvas 元素添加圆角 */
+}
+.textAll_one{
+    color: #e0e0e0;
+    width: 90%;
+}
+.text_one,.tetx_two,.text_three{
+    background-color: rgb(30, 30, 30);
+    border-radius: 4px;
+    margin: 40px 0;
+    padding: 10px 20px;
+}
+.text_threeAdd{
+    height: 20px;
+    overflow: hidden;
+}
+.blood{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.close{
+    position: absolute;right: 5px;top:5px;
+    color: #FFF;
+}
+#AttenDanceCanvas_table{
+    margin: 40px 0;
+    height: auto;
+}
+#AttenDanceCanvas_Dim{
+    border-radius: 4px;
+}

@@ -1,0 +1,120 @@
+.homepage{
+    z-index: -1;
+}
+body{
+    margin:0;
+    padding:0;
+    background-image: url(./pic/homepage_picture.jpg);
+    background-size: cover;
+}
+.toptitle{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    position: absolute;top: 6%;left: -40px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    letter-spacing: 1.2px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-image:linear-gradient(135deg,rgb(122, 160, 82) 30%,#00E4FF 100%);
+    text-stroke:2px;
+    -webkit-text-stroke:2px;
+}
+.Subtoptitle{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    position: absolute;top: 20%;left: -40px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    letter-spacing: 1.2px;
+    padding: 20px 40px;
+    transition: transform 0.3s ease;
+    background-image:linear-gradient(135deg,rgb(122, 160, 82) 30%,#00E4FF 100%);
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;top: 40%;
+}
+.span{
+    position: absolute;left: 30%;top: 24%;
+    transition: all 0.3s ease;
+    color: rgb(0, 97, 73);
+    font-size: 16px;
+}
+.focused-style {
+    background-color: rgb(122, 160, 82);
+    position: absolute;left: 30%;top: -18%;
+    color: #FFF;
+    padding: 0 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.search input{
+    width: 40%;
+    height: 40px;
+    border: 2px solid rgb(122, 160, 82);
+    border-radius: 6px;
+    padding: 0 20px;
+    color: rgb(0, 97, 73);
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+    background: transparent;
+}
+.homepage{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+canvas{display: block;}
+.botttomtext{
+    position: absolute;bottom: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 18px;
+    text-align: center;
+    color: #d6d6d6;
+}
+.searchbutton{
+    position: absolute;top: 41.6%;right: 30%;
+}
+.OpPage{
+    width: 40%;
+    height: 60%;
+    backdrop-filter: blur(2px) brightness(82%);
+    background-color: rgba(30, 30, 30, 0.23);
+    border-radius: 4px;
+    z-index: 100;
+    position: fixed;top: 0;bottom: 0;left: 0;right: 0;
+    margin: auto;
+    /* display: none; */
+}
+.OpPageText_One span{
+    font-size: 10px;
+}
+.OpPageText_One{
+    text-align: center;
+    color: #34415e;
+}
+.NoWriter{
+    color: #0099ff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 706px;
+    overflow: hidden;
+    padding: 220px;
+}
+.InPerformance,.InAchievement{
+    width: 100%;
+    height: 706px;
+    text-align: center;
+}

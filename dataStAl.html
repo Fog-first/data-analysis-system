@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2305</title>
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="./information.css">
+</head>
+<style>
+
+</style>
+<body>
+    <!-- 搜索界面 -->
+    <div class="homepage">
+        <div class="toptitle">StaAnalysis 2305 </div>
+        <div class="Subtoptitle">-专属于2305班的数据统计分析系统-</div>
+        <div class="search">
+            <input type="text" id="myInput"><span id="mySpan" class="span">请输入名字</span>
+        </div>
+        <div class="botttomtext"><span></span>@本页面数据统计分析成果由2305班原创制作，仅限班级<br>内部学习研究使用，未经书面授权禁止商业用途及外泄传播，<br>数据已做匿名化处理，内容仅供参考，不保证绝对准确，侵权必究。<br>V1.0</div>
+        <div class="searchbutton iconfont icon-search"></div>
+    </div>
+    <!-- 信息界面 -->
+    <div class="InforPage">
+        <!-- Close与Open -->
+        <div class="close iconfont icon-cuowuguanbiquxiao"></div>
+        <div class="nav">
+            <div class="pic"><img src="./pic/trees_picture.jpg" id="pictures"><span class="name">刘晨熙</span><span class="name_under">同学,欢迎！</span></div>
+            <div class="Domain">
+                <div class="AttenDance kuang">每日考勤-Daily attendance</div>
+                <div class="Performance kuang">一周表现-week performance</div>
+                <div class="Achievement kuang">成绩分析-Grade analysis</div>
+            </div>
+        </div>
+        <div class="seetable">
+            <div class="Inseetable">
+                <div class="InAttenDance">
+                    <h1>●情况可视化</h1>
+                    <div class="center"><canvas id="AttenDanceCanvas_chart" width="1130" height="350"></canvas></div>
+                    <div class="center"><canvas id="AttenDanceCanvas_table" width="1100"></canvas></div>
+                    <div class="center"><canvas id="AttenDanceCanvas_Dim" width="800" height="800"></canvas></div>
+                    <h1>●半智能分析</h1>
+                    <div class="InAtText_one center">
+                        <div class="textAll_one">
+                            <div class="text_one">
+                                一.数据说明：<br>&nbsp; &nbsp;>数据2305班全体学生（共46人），记录每日考勤（请假，有事，旷课,讲话，走动等等...后续更新）
+                                <br>&nbsp; &nbsp;>通过考勤与分数的关联性，帮助家长了解孩子在校行为规律，针对性改善学习习惯。
+                                <br>&nbsp; &nbsp;>数据来源于纪律委员每日登记数据，后续更新独属于自己孩子的每日情况细则表。
+                                &nbsp; &nbsp;<div class="blood" style="margin: 0 20px;">!注意：迟到记2分，有事记1分，旷课记4分，请假记3分，讲话记1分，走动记2分,趋势情况图表反映的是每天所记录的总分数</div>
+                            </div>
+                            <div class="tetx_two">
+                                二.周一到周五的考勤与分数波动:
+                                <div class="blood Att_fenxi_one" style="color: brown;margin: 0 20px;"></div>
+                                <div class="blood Att_fenxi_two" style="color: brown;margin: 0 20px;"></div>
+                                <div class="blood Att_fenxi_three" style="color: brown;margin: 0 20px;"></div>
+                                <div class="blood Att_fenxi_four" style="color: brown;margin: 0 20px;"></div>
+                            </div>
+                            <div class="text_three text_threeAdd">
+                                三.对个人的影响(不定期更新)(点击展开与收起):
+                                <br>&nbsp; &nbsp;<div class="blood">>缺勤对单科成绩的影响：例如，缺勤1次导致数学周测分数平均下降5分;迟到对课堂效率的影响：迟到学生当日课堂测验分数比准时学生低8%等等</div>
+                                &nbsp; &nbsp;<div class="blood">>这些行为可能导致的结果:</div>
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;1. 学业落后，成绩下滑;直接后果：迟到、旷课、课堂分心会让孩子错过关键知识点，作业和考试难以完成，导致成绩下降;长期影响：基础不牢固可能影响升学（如初中、高中分班或升学考试），甚至对未来职业选择产生限制。
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;2. 纪律处分与学校记录学校通常会对频繁违纪行为采取纪律措施，例如：口头警告或书面通报批评；记录在个人档案（可能影响升学推荐）；严重情况下需家长到校约谈，甚至停课反思
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;3. 社交关系受损:课堂讲话、随意走动会扰乱秩序，可能引发同学不满，导致孩子被孤立或排斥。老师可能因频繁管理纪律而对孩子产生负面印象，减少关注和信任。
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;4. 习惯与性格养成:长期迟到、请假会让孩子养成拖延、逃避责任的习惯，未来可能缺乏时间观念和抗压能力。频繁旷课可能让孩子对学习失去兴趣，产生厌学情绪。
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;5. 家庭与学校的信任危机:学校可能认为家长疏于管教，导致家校沟通不畅；频繁请假（尤其是无合理理由）可能引起学校关注，甚至需要社工或教育部门介入。
+                                <br>&nbsp; &nbsp;<div class="blood">>如何帮助孩子改进？</div>
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;第一步：了解行为背后的原因,与孩子平静沟通，避免指责，尝试问：生理原因：是否睡眠不足、饮食不规律或身体不适？心理原因：是否因学习压力、焦虑、自卑或社交冲突（如被欺凌）而逃避学校？习惯问题：是否缺乏时间管理能力，或家庭作息混乱？兴趣缺失：是否对课程内容不感兴趣，或认为学习“无用”？
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;第二步：针对性解决问题,1. 调整作息，建立规则:固定作息：设定每天起床、睡觉、写作业的时间，全家共同遵守（如22:00前熄灯）。简化流程：提前准备书包、校服，减少早晨的慌乱。小目标奖励：如连续一周按时到校，给予孩子小奖励（如周末户外活动）;2. 提升课堂专注力:与老师合作：主动联系班主任，了解孩子分心的具体表现（如某节课容易走神），请老师多给予正向鼓励。分段任务：教孩子用“番茄钟法”专注学习25分钟，再休息5分钟，逐步延长专注时间。减少干扰：检查孩子是否因电子设备（电话手表、游戏）分心，约定在校禁用时间;3. 处理心理与社交问题:倾听情绪：每天抽10分钟听孩子分享学校生活，关注是否被同学嘲笑、孤立。角色扮演：通过游戏模拟课堂场景，教孩子举手发言、静坐听讲的技巧。专业支持：若孩子情绪持续低落、抗拒上学，可寻求心理咨询师帮助;4. 增强责任感与学习动力:承担后果：让孩子体验自然惩罚（如因迟到错过体育课），理解守规则的重要性。参与计划：让孩子自己制定每日计划表，家长辅助监督执行。兴趣引导：将学习与生活结合（如用数学计算购物预算），激发内在动力。
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;第三步：家校合作，长期跟进,定期与老师沟通：每周了解孩子的进步和问题，避免“告状式”沟通，侧重寻求解决方法。参加学校活动：通过家长会、开放日等增加孩子对学校的归属感。记录进步：用“行为记录表”标记孩子的积极变化，及时给予肯定。
+                                <br>&nbsp; &nbsp;<div class="blood">>家长需注意的误区:</div>
+                                <br>&nbsp; &nbsp;&nbsp; &nbsp;避免打骂或过度保护：打骂会让孩子更叛逆，包庇则会纵容问题。不与其他孩子比较：关注孩子的进步，而非“别人家的孩子”。耐心等待改变：习惯养成需要21天以上，持续鼓励比短期批评更有效。
+                                <br>&nbsp; &nbsp;<div class="blood">总结:孩子的问题行为往往是某种需求的表达（如关注、逃避压力）。家长需耐心找到根源，通过规则、支持和合作逐步引导。如果情况复杂，可联合学校、心理咨询师共同制定方案。记住，孩子需要的是帮助，而非指责，您的理解和行动将是他们改变的最大动力。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="InPerformance"><span class="NoWriter">敬请期待</span></div>
+                <div class="InAchievement"><span class="NoWriter">敬请期待</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="./data.js?v=1"></script>
+    <script src="./homepage.js?v=1"></script>
+    <script src="./main.js?v=1"></script>
+    <script src="./tableCanves.js?v=1"></script>
+</body>
+</html>

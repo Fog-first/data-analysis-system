@@ -1,0 +1,72 @@
+{
+  "id": "4820077",
+  "name": "Mc",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "880336",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "1228",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "839006",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "1727523",
+      "name": "304错误、关闭、取消",
+      "font_class": "cuowuguanbiquxiao",
+      "unicode": "e8e7",
+      "unicode_decimal": 59623
+    },
+    {
+      "icon_id": "4880421",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "6010909",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "7499626",
+      "name": "模板管理",
+      "font_class": "mobanguanli",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "8288884",
+      "name": "问题",
+      "font_class": "wenti",
+      "unicode": "e856",
+      "unicode_decimal": 59478
+    },
+    {
+      "icon_id": "14584409",
+      "name": "duihao",
+      "font_class": "dui",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}
